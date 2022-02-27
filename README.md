@@ -1,4 +1,4 @@
-Deployments to Vercel- jibrilhartford.vercel.app
+Deployments to Vercel- malikhartford.vercel.app
 
 Getting Started
 

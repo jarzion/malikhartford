@@ -37,13 +37,13 @@ export default function ProfilePage({ ...rest }) {
               <div className={classes.profile}>
                 <div>
                   <img
-                    src="/img/jibril/jibril-profile-lax.jpg"
+                    src="/img/malik/profile.jpg"
                     alt="..."
                     className={imageClasses}
                   />
                 </div>
                 <div className={classes.name}>
-                  <h3 className={classes.title}>Jibril Hartford</h3>
+                  <h3 className={classes.title}>Malik Hartford</h3>
                   <h6>Lacrosse/Football Player</h6>
                 </div>
               </div>
@@ -52,12 +52,12 @@ export default function ProfilePage({ ...rest }) {
           <br />
           <GridContainer justify="center">
             <div>
-              <Button color="hudl" style={{minWidth: '300px', maxWidth: '300px'}} onClick={() => {window.open('https://www.hudl.com/profile/9389123/jibril-hartford','_blank')}}>
-                <img src="/img/jibril/hudl-icon.svg" type="image/svg+xml" style={{minWidth: '17px', maxWidth: '17px'}}></img>&nbsp;&nbsp;View On Hudl
+              <Button color="hudl" style={{minWidth: '300px', maxWidth: '300px'}} onClick={() => {window.open('https://www.hudl.com/profile/12603031/Malik-Hartford','_blank')}}>
+                <img src="/img/malik/hudl-icon.svg" type="image/svg+xml" style={{minWidth: '17px', maxWidth: '17px'}}></img>&nbsp;&nbsp;View On Hudl
               </Button>
             </div>
             <div>
-              <Button color="twitter" style={{minWidth: '300px'}} onClick={() => {window.open('https://twitter.com/JibrilHartford','_blank')}}>
+              <Button color="twitter" style={{minWidth: '300px'}} onClick={() => {window.open('https://twitter.com/MalikHartford','_blank')}}>
                 <i className="fab fa-twitter" /> Connect on twitter
               </Button>
             </div>
@@ -87,7 +87,7 @@ export default function ProfilePage({ ...rest }) {
         content={
           <div>
             <div className={classes.center}>
-              &copy; {1900 + new Date().getYear()} , Jibril Hartford
+              &copy; {1900 + new Date().getYear()} , Malik Hartford
             </div>
           </div>
         }
