@@ -78,7 +78,7 @@ export default function ProfilePage({ ...rest }) {
             </div>
             <div>
               <Button color="github" style={{minWidth: '300px'}} onClick={() => {window.open('https://www.on3.com/db/malik-hartford-147153/','_blank')}}>
-              <img src="/img/malik/on3.svg" type="image/svg+xml" style={{minWidth: '17px', maxWidth: '17px'}}></img>&nbsp;&nbsp;View on ESPN
+              <img src="/img/malik/on3.svg" type="image/svg+xml" style={{minWidth: '17px', maxWidth: '17px'}}></img>&nbsp;&nbsp;View on on3
               </Button>
             </div>
             <div>
