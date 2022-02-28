@@ -73,7 +73,12 @@ export default function ProfilePage({ ...rest }) {
             </div>
             <div>
               <Button color="pinterest" style={{minWidth: '300px'}} onClick={() => {window.open('http://www.espn.com/college-sports/football/recruiting/player/_/id/249823/malik-hartford','_blank')}}>
-                <i className="fab fa-pinterest" /> View on ESPN
+              <img src="/img/malik/espn.svg" type="image/svg+xml" style={{minWidth: '17px', maxWidth: '17px'}}></img>&nbsp;&nbsp;View on ESPN
+              </Button>
+            </div>
+            <div>
+              <Button color="github" style={{minWidth: '300px'}} onClick={() => {window.open('https://www.on3.com/db/malik-hartford-147153/','_blank')}}>
+              <img src="/img/malik/on3.svg" type="image/svg+xml" style={{minWidth: '17px', maxWidth: '17px'}}></img>&nbsp;&nbsp;View on ESPN
               </Button>
             </div>
             <div>
