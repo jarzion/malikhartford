@@ -44,7 +44,7 @@ export default function ProfilePage({ ...rest }) {
                 </div>
                 <div className={classes.name}>
                   <h3 className={classes.title}>Malik Hartford</h3>
-                  <h6>4 &starf; S | Lakota West | West Chester, OH</h6>
+                  <h6>{'4 ' + String.fromCharCode(1108) + ' S | Lakota West | West Chester, OH'}</h6>
                 </div>
               </div>
             </GridItem>
@@ -78,7 +78,7 @@ export default function ProfilePage({ ...rest }) {
             </div>
             <div>
               <Button color="github" style={{minWidth: '300px'}} onClick={() => {window.open('https://www.on3.com/db/malik-hartford-147153/','_blank')}}>
-              <img src="/img/malik/on3.svg" type="image/svg+xml" style={{minHeight: '17px', maxHeight: '17px'}}></img>&nbsp;&nbsp;View on on3
+              <img src="/img/malik/on3.svg" type="image/svg+xml" style={{minHeight: '17px', maxHeight: '17px', color: '#FFFFFF'}}></img>&nbsp;&nbsp;View on on3
               </Button>
             </div>
             <div>
