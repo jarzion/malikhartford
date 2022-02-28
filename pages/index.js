@@ -72,13 +72,18 @@ export default function ProfilePage({ ...rest }) {
               </Button>
             </div>
             <div>
-              <Button color="pinterest" style={{minWidth: '300px'}} onClick={() => {window.open('http://www.espn.com/college-sports/football/recruiting/player/_/id/249823/malik-hartford','_blank')}}>
-              <img src="/img/malik/espn-logo.svg" type="image/svg+xml" style={{minHeight: '17px', maxHeight: '17px'}}></img>&nbsp;&nbsp;View on ESPN
+              <Button color="behance" style={{minWidth: '300px'}} onClick={() => {window.open('https://247sports.com/Player/Malik-Hartford-46125498/','_blank')}}>
+              <img src="/img/malik/247sports.svg" type="image/svg+xml" style={{minHeight: '17px', maxHeight: '17px'}}></img>&nbsp;&nbsp;View on 247sports
               </Button>
             </div>
             <div>
               <Button color="github" style={{minWidth: '300px'}} onClick={() => {window.open('https://www.on3.com/db/malik-hartford-147153/','_blank')}}>
               <img src="/img/malik/on3.svg" type="image/svg+xml" style={{minHeight: '17px', maxHeight: '17px', color: '#FFFFFF'}}></img>&nbsp;&nbsp;View on on3
+              </Button>
+            </div>
+            <div>
+              <Button color="pinterest" style={{minWidth: '300px'}} onClick={() => {window.open('http://www.espn.com/college-sports/football/recruiting/player/_/id/249823/malik-hartford','_blank')}}>
+              <img src="/img/malik/espn-logo.svg" type="image/svg+xml" style={{minHeight: '17px', maxHeight: '17px'}}></img>&nbsp;&nbsp;View on ESPN
               </Button>
             </div>
             <div>
