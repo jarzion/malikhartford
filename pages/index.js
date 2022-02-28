@@ -53,7 +53,7 @@ export default function ProfilePage({ ...rest }) {
           <GridContainer justify="center">
             <div>
               <Button color="hudl" style={{minWidth: '300px', maxWidth: '300px'}} onClick={() => {window.open('https://www.hudl.com/profile/12603031/Malik-Hartford','_blank')}}>
-                <img src="/img/malik/hudl-icon.svg" type="image/svg+xml" style={{minWidth: '17px', maxWidth: '17px'}}></img>&nbsp;&nbsp;View On Hudl
+                <img src="/img/malik/hudl-icon.svg" type="image/svg+xml" style={{minHeight: '17px', maxHeight: '17px'}}></img>&nbsp;&nbsp;View On Hudl
               </Button>
             </div>
             <div>
@@ -73,12 +73,12 @@ export default function ProfilePage({ ...rest }) {
             </div>
             <div>
               <Button color="pinterest" style={{minWidth: '300px'}} onClick={() => {window.open('http://www.espn.com/college-sports/football/recruiting/player/_/id/249823/malik-hartford','_blank')}}>
-              <img src="/img/malik/espn.svg" type="image/svg+xml" style={{minWidth: '17px', maxWidth: '17px'}}></img>&nbsp;&nbsp;View on ESPN
+              <img src="/img/malik/espn-logo.svg" type="image/svg+xml" style={{minHeight: '17px', maxHeight: '17px'}}></img>&nbsp;&nbsp;View on ESPN
               </Button>
             </div>
             <div>
               <Button color="github" style={{minWidth: '300px'}} onClick={() => {window.open('https://www.on3.com/db/malik-hartford-147153/','_blank')}}>
-              <img src="/img/malik/on3.svg" type="image/svg+xml" style={{minWidth: '17px', maxWidth: '17px'}}></img>&nbsp;&nbsp;View on on3
+              <img src="/img/malik/on3.svg" type="image/svg+xml" style={{minHeight: '17px', maxHeight: '17px'}}></img>&nbsp;&nbsp;View on on3
               </Button>
             </div>
             <div>
