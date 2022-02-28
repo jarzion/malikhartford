@@ -77,6 +77,11 @@ export default function ProfilePage({ ...rest }) {
               </Button>
             </div>
             <div>
+              <Button color="facebook" style={{minWidth: '300px'}} onClick={() => {window.open('https://n.rivals.com/content/prospects/2023/malik-hartford-280084','_blank')}}>
+              <img src="/img/malik/rivals.svg" type="image/svg+xml" style={{minHeight: '17px', maxHeight: '17px'}}></img>&nbsp;&nbsp;View on rivals
+              </Button>
+            </div>
+            <div>
               <Button color="github" style={{minWidth: '300px'}} onClick={() => {window.open('https://www.on3.com/db/malik-hartford-147153/','_blank')}}>
               <img src="/img/malik/on3.svg" type="image/svg+xml" style={{minHeight: '17px', maxHeight: '17px', color: '#FFFFFF'}}></img>&nbsp;&nbsp;View on on3
               </Button>
