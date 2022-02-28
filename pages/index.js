@@ -72,6 +72,11 @@ export default function ProfilePage({ ...rest }) {
               </Button>
             </div>
             <div>
+              <Button color="pinterest" style={{minWidth: '300px'}} onClick={() => {window.open('http://www.espn.com/college-sports/football/recruiting/player/_/id/249823/malik-hartford','_blank')}}>
+                <i className="fab fa-pinterest" /> View on ESPN
+              </Button>
+            </div>
+            <div>
               <Button color="youtube" style={{minWidth: '300px'}} onClick={() => {window.open('https://www.youtube.com/user/KingJamesMMV','_blank')}}>
                 <i className="fab fa-youtube" /> View On Youtube
               </Button>
