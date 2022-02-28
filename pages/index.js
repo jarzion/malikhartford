@@ -72,7 +72,7 @@ export default function ProfilePage({ ...rest }) {
               </Button>
             </div>
             <div>
-              <Button color="youtube" style={{minWidth: '300px'}} onClick={() => {window.open('https://www.youtube.com/channel/UCOeA4NU8uPT6QwCFXspvATQ','_blank')}}>
+              <Button color="youtube" style={{minWidth: '300px'}} onClick={() => {window.open('https://www.youtube.com/user/KingJamesMMV','_blank')}}>
                 <i className="fab fa-youtube" /> View On Youtube
               </Button>
             </div>
