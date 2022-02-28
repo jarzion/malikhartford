@@ -44,7 +44,7 @@ export default function ProfilePage({ ...rest }) {
                 </div>
                 <div className={classes.name}>
                   <h3 className={classes.title}>Malik Hartford</h3>
-                  <h6>{'4 ' + String.fromCharCode(1108) + ' S | Lakota West | West Chester, OH'}</h6>
+                  <h6>{'4 ' + String.fromCharCode(11088) + ' S | Lakota West | West Chester, OH'}</h6>
                 </div>
               </div>
             </GridItem>
