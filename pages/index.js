@@ -37,14 +37,14 @@ export default function ProfilePage({ ...rest }) {
               <div className={classes.profile}>
                 <div>
                   <img
-                    src="/img/malik/profile.jpg"
+                    src="/img/malik/malik-profile.jpg"
                     alt="..."
                     className={imageClasses}
                   />
                 </div>
                 <div className={classes.name}>
                   <h3 className={classes.title}>Malik Hartford</h3>
-                  <h6>Lacrosse/Football Player</h6>
+                  <h6>4 &starf; S | Lakota West | West Chester, OH</h6>
                 </div>
               </div>
             </GridItem>
