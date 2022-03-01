@@ -9,12 +9,17 @@ class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <meta name="theme-color" content="#000000" />
-          <link rel="shortcut icon" href="/img/favicon.png" />
-          <link
+          <link rel="shortcut icon" href="/img/malik/crown-favicon.png" />
+          <link 
             rel="apple-touch-icon"
-            sizes="76x76"
-            href="/img/apple-icon.png"
+            sizes="1024x1024"
+            href="/img/malik/crown-favicon.png"
           />
+          
+          <meta property="og:image" content="/img/malik/malik-profile.png" />
+          <meta property="og:image:alt" content="Malik Hartford | 4-Star Safety | Lakota West HighSchool | West Chester, OH" />
+          <meta property="og:title" content="Malik Hartford | 4-Star Safety | Lakota West HighSchool | West Chester, OH" />
+
           {/* Fonts and icons */}
           <link
             rel="stylesheet"
