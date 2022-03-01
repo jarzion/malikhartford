@@ -58,42 +58,42 @@ export default function ProfilePage({ ...rest }) {
               </Button>
             </div>
             <div>
-              <Button id="twitter" color="twitter" style={{minWidth: '300px'}} onClick={() => {window.open('https://twitter.com/MalikHartford','_blank')}}>
+              <Button class="buttonLink" id="twitter" color="twitter" style={{minWidth: '300px'}} onClick={() => {window.open('https://twitter.com/MalikHartford','_blank')}}>
                 <i className="fab fa-twitter" /> Connect on twitter
               </Button>
             </div>
             <div>
-              <Button id="instagram" color="instagram" style={{minWidth: '300px'}} onClick={() => {window.open('https://www.instagram.com/malik.hartford/','_blank')}}>
+              <Button class="buttonLink" id="instagram" color="instagram" style={{minWidth: '300px'}} onClick={() => {window.open('https://www.instagram.com/malik.hartford/','_blank')}}>
                 <i className="fab fa-instagram" /> Connect on Instagram
               </Button>
             </div>
             <div>
-              <Button id="247sports" color="behance" style={{minWidth: '300px'}} onClick={() => {window.open('https://247sports.com/Player/Malik-Hartford-46125498/','_blank')}}>
+              <Button class="buttonLink" id="247sports" color="behance" style={{minWidth: '300px'}} onClick={() => {window.open('https://247sports.com/Player/Malik-Hartford-46125498/','_blank')}}>
               <img src="/img/malik/247sports.svg" type="image/svg+xml" style={{minHeight: '17px', maxHeight: '17px'}}></img>&nbsp;&nbsp;View on 247sports
               </Button>
             </div>
             <div>
-              <Button id="rivals" color="facebook" style={{minWidth: '300px'}} onClick={() => {window.open('https://n.rivals.com/content/prospects/2023/malik-hartford-280084','_blank')}}>
+              <Button class="buttonLink" id="rivals" color="facebook" style={{minWidth: '300px'}} onClick={() => {window.open('https://n.rivals.com/content/prospects/2023/malik-hartford-280084','_blank')}}>
               <img src="/img/malik/rivals.svg" type="image/svg+xml" style={{minHeight: '14px', maxHeight: '14px'}}></img>&nbsp;&nbsp;View on rivals
               </Button>
             </div>
             <div>
-              <Button id="on3" color="github" style={{minWidth: '300px'}} onClick={() => {window.open('https://www.on3.com/db/malik-hartford-147153/','_blank')}}>
+              <Button class="buttonLink" id="on3" color="github" style={{minWidth: '300px'}} onClick={() => {window.open('https://www.on3.com/db/malik-hartford-147153/','_blank')}}>
               <img src="/img/malik/on3.svg" type="image/svg+xml" style={{minHeight: '17px', maxHeight: '17px', color: '#FFFFFF'}}></img>&nbsp;&nbsp;View on on3
               </Button>
             </div>
             <div>
-              <Button id="espn" color="pinterest" style={{minWidth: '300px'}} onClick={() => {window.open('http://www.espn.com/college-sports/football/recruiting/player/_/id/249823/malik-hartford','_blank')}}>
+              <Button class="buttonLink" id="espn" color="pinterest" style={{minWidth: '300px'}} onClick={() => {window.open('http://www.espn.com/college-sports/football/recruiting/player/_/id/249823/malik-hartford','_blank')}}>
               <img src="/img/malik/espn-logo.svg" type="image/svg+xml" style={{minHeight: '17px', maxHeight: '17px'}}></img>&nbsp;&nbsp;View on ESPN
               </Button>
             </div>
             <div>
-              <Button id="facebook" color="facebook" style={{minWidth: '300px'}} onClick={() => {window.open('https://www.facebook.com/malik.hartford.9','_blank')}}>
+              <Button class="buttonLink" id="facebook" color="facebook" style={{minWidth: '300px'}} onClick={() => {window.open('https://www.facebook.com/malik.hartford.9','_blank')}}>
                 <i className="fab fa-facebook-square" /> Connect on Facebook
               </Button>
             </div>
             <div>
-              <Button id="youtube" color="youtube" style={{minWidth: '300px'}} onClick={() => {window.open('https://www.youtube.com/user/KingJamesMMV','_blank')}}>
+              <Button class="buttonLink" id="youtube" color="youtube" style={{minWidth: '300px'}} onClick={() => {window.open('https://www.youtube.com/user/KingJamesMMV','_blank')}}>
                 <i className="fab fa-youtube" /> View On Youtube
               </Button>
             </div>
