@@ -20,6 +20,12 @@ class MyDocument extends Document {
           <meta property="og:image" content="https://www.malikhartford.com/img/malik/malik-profile.jpg" />
           <meta property="og:image:alt" content="Malik Hartford | 4-Star Safety | Lakota West HighSchool | West Chester, OH" />
           <meta property="og:title" content="Malik Hartford | 4-Star Safety | Lakota West HighSchool | West Chester, OH" />
+          <meta property="og:description" content="Malik Hartford | 4-Star Safety | Lakota West HighSchool | West Chester, OH" />
+          <meta property="og:url" content="https://www.malikhartford.com/" />
+          <meta property="og:type" content="profile" />
+          <meta property="profile:first_name" content="Malik" />
+          <meta property="profile:last_name" content="Hartford" />
+          <meta property="profile:gender" content="male" />
 
           {/* Fonts and icons */}
           <link
