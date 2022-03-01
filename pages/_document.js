@@ -16,6 +16,15 @@ class MyDocument extends Document {
             href="/img/malik/crown-favicon.png"
           />
           
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-8YEX7MPRH5"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){"{dataLayer.push(arguments);}"}
+            gtag('js', new Date());
+
+            gtag('config', 'G-8YEX7MPRH5');
+          </script>
+
           <meta property="og:image" content="/img/malik/malik-profile.png" />
           <meta property="og:image:alt" content="Malik Hartford | 4-Star Safety | Lakota West HighSchool | West Chester, OH" />
           <meta property="og:title" content="Malik Hartford | 4-Star Safety | Lakota West HighSchool | West Chester, OH" />
