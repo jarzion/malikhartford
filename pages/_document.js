@@ -3,6 +3,7 @@ import Document, { Html, Head, Main, NextScript } from "next/document";
 import { ServerStyleSheets } from "@material-ui/styles";
 
 class MyDocument extends Document {
+
   render() {
     return (
       <Html lang="en">
@@ -15,15 +16,6 @@ class MyDocument extends Document {
             sizes="1024x1024"
             href="/img/malik/crown-favicon.png"
           />
-          
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-8YEX7MPRH5"></script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){"{dataLayer.push(arguments);}"}
-            gtag('js', new Date());
-
-            gtag('config', 'G-8YEX7MPRH5');
-          </script>
 
           <meta property="og:image" content="https://www.malikhartford.com/img/malik/malik-profile.jpg" />
           <meta property="og:image:alt" content="Malik Hartford | 4-Star Safety | Lakota West HighSchool | West Chester, OH" />

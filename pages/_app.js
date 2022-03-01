@@ -19,14 +19,21 @@ import ReactDOM from "react-dom";
 import App from "next/app";
 import Head from "next/head";
 import Router from "next/router";
-
 import PageChange from "components/PageChange/PageChange.js";
 
 import "styles/scss/nextjs-material-kit-pro.scss?v=1.2.0";
-
 import "styles/css/react-demo.css";
-
 import "animate.css/animate.min.css";
+
+import TagManager from 'react-gtm-module'
+ 
+const tagManagerArgs = {
+    gtmId: 'GTM-K3H3SRX'
+}
+if (process.browser) {  
+  TagManager.initialize(tagManagerArgs)
+}
+
 
 Router.events.on("routeChangeStart", (url) => {
   console.log(`Loading: ${url}`);
@@ -84,8 +91,7 @@ export default class MyApp extends App {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-          <title>Malik Hartford - Link Page</title>
+          <title>Malik Hartford | 4-Star Safety | Lakota West HighSchool | West Chester, OH</title>
         </Head>
         <Component {...pageProps} />
       </React.Fragment>
