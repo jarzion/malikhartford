@@ -25,7 +25,7 @@ class MyDocument extends Document {
             gtag('config', 'G-8YEX7MPRH5');
           </script>
 
-          <meta property="og:image" content="/img/malik/malik-profile.jpg" />
+          <meta property="og:image" content="https://www.malikhartford.com/img/malik/malik-profile.jpg" />
           <meta property="og:image:alt" content="Malik Hartford | 4-Star Safety | Lakota West HighSchool | West Chester, OH" />
           <meta property="og:title" content="Malik Hartford | 4-Star Safety | Lakota West HighSchool | West Chester, OH" />
 
