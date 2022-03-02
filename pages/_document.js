@@ -11,16 +11,13 @@ class MyDocument extends Document {
           <meta charSet="utf-8" />
           <meta name="theme-color" content="#000000" />
           <link rel="shortcut icon" href="/img/malik/crown-favicon.png" />
-          <link 
-            rel="apple-touch-icon"
-            sizes="1024x1024"
-            href="/img/malik/crown-favicon.png"
-          />
+          <link rel="apple-touch-icon" sizes="1024x1024" href="/img/malik/crown-favicon.png" />
+          <meta name="apple-mobile-web-app-title" content="Malik Hartford"></meta>
 
           <meta property="og:image" content="https://www.malikhartford.com/img/malik/malik-profile.jpg" />
           <meta property="og:image:alt" content="Malik Hartford | 4-Star Safety | Lakota West HighSchool | West Chester, OH" />
           <meta property="og:title" content="Malik Hartford | 4-Star Safety | Lakota West HighSchool | West Chester, OH" />
-          <meta property="og:description" content="Malik Hartford | 4-Star Safety | Lakota West HighSchool | West Chester, OH" />
+          <meta property="og:description" content="Malik Hartford  4-Star Safety from Lakota West HighSchool in West Chester, OH" />
           <meta property="og:url" content="https://www.malikhartford.com/" />
           <meta property="og:type" content="profile" />
           <meta property="profile:first_name" content="Malik" />
