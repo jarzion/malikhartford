@@ -72,6 +72,7 @@ RegularButton.propTypes = {
     "dribbble",
     "reddit",
     "instagram",
+    "tiktok",
     "hudl",
     "transparent",
   ]),

@@ -20,6 +20,7 @@ import {
   dribbbleColor,
   redditColor,
   instagramColor,
+  tiktokColor,
   hudlColor,
   hexToRgb,
 } from "styles/jss/nextjs-material-kit-pro.js";
@@ -576,6 +577,30 @@ const buttonStyle = {
         hexToRgb(blackColor) +
         ", 0.12), 0 8px 10px -5px rgba(" +
         hexToRgb(instagramColor) +
+        ", 0.2)",
+    },
+  },
+  tiktok: {
+    backgroundColor: tiktokColor,
+    color: whiteColor,
+    boxShadow:
+      "0 2px 2px 0 rgba(" +
+      hexToRgb(tiktokColor) +
+      ", 0.14), 0 3px 1px -2px rgba(" +
+      hexToRgb(tiktokColor) +
+      ", 0.2), 0 1px 5px 0 rgba(" +
+      hexToRgb(tiktokColor) +
+      ", 0.12)",
+    "&:hover,&:focus": {
+      backgroundColor: tiktokColor,
+      color: whiteColor,
+      boxShadow:
+        "0 14px 26px -12px rgba(" +
+        hexToRgb(tiktokColor) +
+        ", 0.42), 0 4px 23px 0px rgba(" +
+        hexToRgb(blackColor) +
+        ", 0.12), 0 8px 10px -5px rgba(" +
+        hexToRgb(tiktokColor) +
         ", 0.2)",
     },
   },

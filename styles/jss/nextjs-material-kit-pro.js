@@ -146,6 +146,7 @@ const dribbbleColor = "#ea4c89";
 const redditColor = "#ff4500";
 const instagramColor = "#E1306C";
 const hudlColor = "#ff6300";
+const tiktokColor = "#000000";
 
 const transition = {
   transition: "all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1)",
@@ -466,6 +467,7 @@ export {
   redditColor,
   hudlColor,
   instagramColor,
+  tiktokColor,
   primaryBoxShadow,
   infoBoxShadow,
   successBoxShadow,
