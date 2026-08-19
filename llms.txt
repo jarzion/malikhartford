@@ -1,0 +1,11 @@
+# Malik Hartford
+> UCLA Bruins safety. Official personal site with social profiles, roster links, and business contact.
+
+This is a one-page static site at https://malikhartford.com/. JSON-LD Person markup is on the homepage.
+
+## Pages
+- [Home](https://malikhartford.com/): Official link hub for Malik Hartford, UCLA football safety.
+
+## Optional
+- [UCLA football roster](https://uclabruins.com/sports/football/roster/player/malik-hartford): Official school profile
+- [ESPN player profile](https://www.espn.com/college-football/player/_/id/4917948/malik-hartford): Stats and college football profile

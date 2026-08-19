@@ -1,2 +1,6 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://malikhartford.com/sitemap.xml
+
+# AI assistants: see /llms.txt for a short overview of this site.
