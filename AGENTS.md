@@ -10,6 +10,7 @@ Static GitHub Pages site from the `main` branch, root `/`. Custom domain: https:
 2. Update `robots.txt` if the URL should be crawled or blocked (`Allow` / `Disallow`).
 3. Add the URL and a one-line description to `llms.txt` (the AI-facing index, similar to robots.txt).
 4. Add the URL to `sitemap.xml`. Keep the `Sitemap:` line in `robots.txt` pointing at https://malikhartford.com/sitemap.xml.
+5. Do not add `404.html` to the sitemap. That file is the GitHub Pages error page.
 
 ## Do not
 
