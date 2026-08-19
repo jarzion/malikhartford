@@ -2,6 +2,8 @@
 
 Static GitHub Pages site from the `main` branch, root `/`. Custom domain: https://malikhartford.com/
 
+`AGENTS.md` is excluded from the published site via `_config.yml`. Keep it that way so it is not served at https://malikhartford.com/AGENTS.md. The file is still visible on GitHub because this repo is public.
+
 ## When you add a page
 
 1. Add the public file where GitHub Pages will serve it.
